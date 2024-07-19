@@ -39,8 +39,8 @@ function Projects() {
         <p>Error: { error }</p>
       ) : (
         <ul>
-          {data.map(item => (
-            <li key={ item.id }>{ item.name }</li>
+          {data.map(record => (
+            <li key={ record.id }>{ record.name }</li>
           ))}
         </ul>
       )}
